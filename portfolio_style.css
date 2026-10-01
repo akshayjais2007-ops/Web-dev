@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    
+    
+    color: #263238;
+    font-family: Arial, sans-serif;
+    
+    scroll-behavior: smooth;
+}
+
+header {
+    
+    background: #263238;
+    color: rgb(248, 245, 245);
+    border-radius: 12px;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+.navbar a {
+    margin-left: 18px;
+    color: rgb(246, 243, 243);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+section {
+    
+    background: rgb(255, 247, 248);
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(151, 144, 144, 0.5);
+}
+
+    .navbar a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .profile-image {
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+
+body{
+    background-color: rgb(199, 175, 175);
+    color: rgb(100, 35, 35);
+    margin: 10px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+div.contact {
+    
+    color: rgb(0, 0, 0);
+    
+    
+}
