@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .block,
+    .inline,
+    .inline_block {
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+
+    /* template starts from here */
+    .block {
+        /* height, width, p,m,border */
+        background-color: lightblue; /* background color */
+        padding: 20px; /* padding */
+        width: 100px; /* width */
+        height: 20px; /* height */
+        margin: 10px; /* margin */
+        border: 2px solid black; /* border */
+        border-radius: 5px; /* border radius */
+        
+    }
+
+    .inline {
+        background-color: lightgreen;
+        padding: 10px;
+        width: 100px;
+        height: 20px;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .inline_block {
+        background-color: mediumorchid; 
+        padding: 20px;
+        width: 100px;
+        height: 20px;
+        margin: 10px; 
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+</body>
+    <h2>Hello, World!</h2>
+    <div class="block">Kaise ho!</div>  
+    <div class="block">Block</div> 
+    <br>
+    <div class="inline">Inline</div>
+    <div class="inline">Inline 2</div>
+    <br>
+    <div class="inline_block">Inline Block</div>
+    <div class="inline_block">Inline Block 2</div>
+</body>
+</html>
+
+<!--
+Block:
+1).next element will be in new line
+2).padding and margin will be applied on all sides
+3).width and height will be applied
+4).border will be applied on all sides
+
+Inline:
+1).next element will be on the same line
+2).padding and margin will be applied on left and right sides only
+3).width and height will not be applied
+4).border will be applied on all sides
+
+Inline-Block:
+1).next element will be on the same line
+2).padding and margin will be applied on all sides
+3).width and height will be applied
+4).border will be applied on all sides
+-->
